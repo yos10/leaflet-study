@@ -15,7 +15,9 @@ const map = L.map('map', {
   zoomControl: false,
 });
 
-L.imageOverlay(image.url, bounds).addTo(map);
+const attribution = `<a href="https://www.mhlw.go.jp/stf/covid-19/open-data.html">新規陽性者数の推移（日別）」（厚生労働省）</a>を加工して作成`;
+
+L.imageOverlay(image.url, bounds, {attribution}).addTo(map);
 map.fitBounds(bounds);
 map.setMaxBounds(bounds);
 
@@ -46,4 +48,3 @@ function onEachFeature(feature, layer) {
 L.geoJSON(newCases, {
   onEachFeature: onEachFeature,
 }).addTo(map);
-
