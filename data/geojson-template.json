@@ -1,0 +1,761 @@
+[
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "ALL",
+      "date": "",
+      "newCases": "",
+      "prefecture": "全国"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        83,
+        546
+      ]
+    }
+  },{
+    "type": "Feature",
+    "properties": {
+      "id": "Hokkaido",
+      "date": "",
+      "newCases": "",
+      "prefecture": "北海道"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        642,
+        599
+      ]
+    }
+  },{
+    "type": "Feature",
+    "properties": {
+      "id": "Aomori",
+      "date": "",
+      "newCases": "",
+      "prefecture": "青森"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        642,
+        494
+      ]
+    }
+  },{
+    "type": "Feature",
+    "properties": {
+      "id": "Iwate",
+      "date": "",
+      "newCases": "",
+      "prefecture": "岩手"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        721,
+        434
+      ]
+    }
+  },{
+    "type": "Feature",
+    "properties": {
+      "id": "Miyagi",
+      "date": "",
+      "newCases": "",
+      "prefecture": "宮城"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        721,
+        372
+      ]
+    }
+  },{
+    "type": "Feature",
+    "properties": {
+      "id": "Akita",
+      "date": "",
+      "newCases": "",
+      "prefecture": "秋田"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        642,
+        434
+      ]
+    }
+  },{
+    "type": "Feature",
+    "properties": {
+      "id": "Yamagata",
+      "date": "",
+      "newCases": "",
+      "prefecture": "山形"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        642,
+        372
+      ]
+    }
+  },{
+    "type": "Feature",
+    "properties": {
+      "id": "Fukushima",
+      "date": "",
+      "newCases": "",
+      "prefecture": "福島"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        721,
+        310
+      ]
+    }
+  },{
+    "type": "Feature",
+    "properties": {
+      "id": "Ibaraki",
+      "date": "",
+      "newCases": "",
+      "prefecture": "茨城"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        721,
+        185
+      ]
+    }
+  },{
+    "type": "Feature",
+    "properties": {
+      "id": "Tochigi",
+      "date": "",
+      "newCases": "",
+      "prefecture": "栃木"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        721,
+        247
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Saitama",
+      "date": "",
+      "newCases": "",
+      "prefecture": "埼玉"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        642,
+        185
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Gunma",
+      "date": "",
+      "newCases": "",
+      "prefecture": "群馬"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        642,
+        247
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Chiba",
+      "date": "",
+      "newCases": "",
+      "prefecture": "千葉"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        721,
+        123
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Tokyo",
+      "date": "",
+      "newCases": "",
+      "prefecture": "東京"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        642,
+        123
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Kanagawa",
+      "date": "",
+      "newCases": "",
+      "prefecture": "神奈川"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        562,
+        123
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Niigata",
+      "date": "",
+      "newCases": "",
+      "prefecture": "新潟"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        642,
+        310
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Toyama",
+      "date": "",
+      "newCases": "",
+      "prefecture": "富山"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        563,
+        310
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Ishikawa",
+      "date": "",
+      "newCases": "",
+      "prefecture": "石川"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        483,
+        310
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Fukui",
+      "date": "",
+      "newCases": "",
+      "prefecture": "福井"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        403,
+        310
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Yamanashi",
+      "date": "",
+      "newCases": "",
+      "prefecture": "山梨"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        563,
+        185
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Nagano",
+      "date": "",
+      "newCases": "",
+      "prefecture": "長野"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        563,
+        247
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Gifu",
+      "date": "",
+      "newCases": "",
+      "prefecture": "岐阜"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        483,
+        247
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Shizuoka",
+      "date": "",
+      "newCases": "",
+      "prefecture": "静岡"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        483,
+        185
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Aichi",
+      "date": "",
+      "newCases": "",
+      "prefecture": "愛知"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        482,
+        123
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Mie",
+      "date": "",
+      "newCases": "",
+      "prefecture": "三重"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        402,
+        123
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Shiga",
+      "date": "",
+      "newCases": "",
+      "prefecture": "滋賀"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        403,
+        247
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Kyoto",
+      "date": "",
+      "newCases": "",
+      "prefecture": "京都"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        323,
+        310
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Osaka",
+      "date": "",
+      "newCases": "",
+      "prefecture": "大阪"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        323,
+        185
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Hyogo",
+      "date": "",
+      "newCases": "",
+      "prefecture": "兵庫"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        323,
+        247
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Nara",
+      "date": "",
+      "newCases": "",
+      "prefecture": "奈良"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        403,
+        185
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Wakayama",
+      "date": "",
+      "newCases": "",
+      "prefecture": "和歌山"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        322,
+        123
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Tottori",
+      "date": "",
+      "newCases": "",
+      "prefecture": "鳥取"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        243,
+        310
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Shimane",
+      "date": "",
+      "newCases": "",
+      "prefecture": "島根"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        163,
+        310
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Okayama",
+      "date": "",
+      "newCases": "",
+      "prefecture": "岡山"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        243,
+        247
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Hiroshima",
+      "date": "",
+      "newCases": "",
+      "prefecture": "広島"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        163,
+        247
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Yamaguchi",
+      "date": "",
+      "newCases": "",
+      "prefecture": "山口"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        83,
+        310
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Tokushima",
+      "date": "",
+      "newCases": "",
+      "prefecture": "徳島"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        243,
+        123
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Kagawa",
+      "date": "",
+      "newCases": "",
+      "prefecture": "香川"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        243,
+        185
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Ehime",
+      "date": "",
+      "newCases": "",
+      "prefecture": "愛媛"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        163,
+        185
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Kochi",
+      "date": "",
+      "newCases": "",
+      "prefecture": "高知"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        162,
+        123
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Fukuoka",
+      "date": "",
+      "newCases": "",
+      "prefecture": "福岡"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        83,
+        247
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Saga",
+      "date": "",
+      "newCases": "",
+      "prefecture": "佐賀"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3,
+        247
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Nagasaki",
+      "date": "",
+      "newCases": "",
+      "prefecture": "長崎"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3,
+        185
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Kumamoto",
+      "date": "",
+      "newCases": "",
+      "prefecture": "熊本"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3,
+        123
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Oita",
+      "date": "",
+      "newCases": "",
+      "prefecture": "大分"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        83,
+        185
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Miyazaki",
+      "date": "",
+      "newCases": "",
+      "prefecture": "宮崎"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        82,
+        123
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Kagoshima",
+      "date": "",
+      "newCases": "",
+      "prefecture": "鹿児島"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        83,
+        61
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "Okinawa",
+      "date": "",
+      "newCases": "",
+      "prefecture": "沖縄"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3,
+        61
+      ]
+    }
+  }
+]
