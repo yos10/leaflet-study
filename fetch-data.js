@@ -7,28 +7,35 @@ const csv = require('csvtojson');
 const url =
   'https://covid19.mhlw.go.jp/public/opendata/newly_confirmed_cases_daily.csv';
 
-const csvFilePath = 'data/newly_confirmed_cases_daily.csv';
-
-async function downloadCsv() {
-  const writer = fs.createWriteStream(csvFilePath);
-
-  const response = await axios({
+function fetchData() {
+  return axios({
     method: 'get',
     url: url,
     responseType: 'stream',
-  })
-  
-  return new Promise((resolve, reject) => {
-    response.data.pipe(writer);
-    writer.on('finish', resolve);
-    writer.on('error', reject);
-  })
-}
-
-async function writeLatestDataToJson() {
-  const jsonArray = await csv().fromFile(csvFilePath);
-  const latestData = jsonArray.pop();
-  fs.writeFileSync('data/latest_new_cases.json', JSON.stringify(latestData), 'utf-8');
+  }).then((response) => {
+    return new Promise((resolve, reject) => {
+      const rows = [];
+      response.data.pipe(
+        csv().subscribe(
+          (json) => {
+            rows.push(json);
+          },
+          () => {
+            reject();
+          },
+          () => {
+            resolve(
+              fs.writeFileSync(
+                'data/latest_new_cases.json',
+                JSON.stringify(rows.pop()),
+                'utf-8'
+              )
+            );
+          }
+        )
+      );
+    });
+  });
 }
 
 function createGeojson() {
@@ -60,8 +67,7 @@ function createGeojson() {
 }
 
 async function main() {
-  await downloadCsv();
-  await writeLatestDataToJson();
+  await fetchData();
   createGeojson();
 }
 
