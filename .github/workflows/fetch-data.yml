@@ -1,4 +1,4 @@
-name: Scrape latest data
+name: Fetch latest data
 
 on:
   workflow_dispatch:
@@ -21,7 +21,7 @@ jobs:
       run: npm install
 
     - name: Fetch latest data
-      run: node ./fetch-data.js
+      run: npm prestart
 
     - name: Commit and push if it changed
       run: |-
